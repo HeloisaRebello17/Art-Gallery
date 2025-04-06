@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ART GALLERY - Login</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+<div class="imagemPrincipal">
+    <img src="/imagens/ftLogin.png" alt="login" class="ftPrincipal">     
+</div>
+  
+
+  <div class="container">
+    <h1>ART GALLERY</h1>
+    <p class="subtitle">Onde a arte encontra seu lugar.</p>
+
+    <% if (error) { %>
+      <div class="error-message"><%= error %></div>
+    <% } %>
+
+    <form action="/login" method="POST">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <small>No mínimo 8 caracteres</small>
+      </div>
+
+      <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+
+      <button type="submit" class="btn-login">Entrar</button>
+
+      <div class="divider">Ou</div>
+
+      <div class="social-login">
+        <button type="button" class="btn-google">Entrar com o Google</button>
+        <button type="button" class="btn-facebook">Entrar com o Facebook</button>
+      </div>
+
+      <p class="register-link">Você não possui conta? <a href="/register">Cadastre-se</a></p>
+    </form>
+  </div>
+</body>
+</html>

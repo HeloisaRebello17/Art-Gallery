@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Admin</title>
+  <style>
+    .admin-nav {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="admin-nav">
+    <h1>Painel Administrativo</h1>
+  </nav>
+  
+  <div class="container">
+    <h2>Bem-vindo, <%= user.email %></h2>
+    
+    <section>
+      <h3>Ferramentas</h3>
+      <ul>
+        <li><a href="/admin/users">Gerenciar Usuários</a></li>
+        <li><a href="/admin/content">Conteúdo</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
