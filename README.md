@@ -4,7 +4,7 @@ Projeto Art Gallery- Repositório destinado ao desenvolvimento do projeto da dis
 <ul>
   <li><b>Projeto: Server-Side. </b> </li>
  <li><b>Instituição: Centro Universitário - Católica de Santa Catarina. </b></li>
- <li><b>Integrantes: Heitor Lopes Heloísa Cabral, Lucas Mendonça.</b></li>
+ <li><b>Integrantes: Heitor Lopes, Heloísa Cabral, Lucas Mendonça.</b></li>
  <li><b>Professor: Paulo Rogério Pires Manseira.</b></li>
  </ul>
  <div style="display: inline_block"><br>
